@@ -11,21 +11,27 @@ CREATE TABLE IF NOT EXISTS userData(
     lvl_of_streamer NUMBER,
     total_views NUMBER,
     account_created_date DATE,
-    social_media BOOLEAN,
+    facebook TEXT,
+    instagram TEXT,
+    twitter TEXT,
+    youtube TEXT,
     teams BOOLEAN,
     sponsors TEXT,
     PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS pastBroadcasts(
+    userData_id INT,
     broadcastTitle TEXT,
     views NUMBER,
-    date_uploaded DATE
-
+    date_uploaded DATE,
+    FOREIGN KEY (userData_id) REFERENCES userData(id)
 );
 
-CREATE TABLE IF NOT EXISTS pastBroadcasts(
+CREATE TABLE IF NOT EXISTS pastClips(
+    userData_id INT,
     clipTitle TEXT,
     views NUMBER,
-    date_uploaded DATE
+    date_uploaded DATE,
+    FOREIGN KEY (userData_id) REFERENCES userData(id)
 );

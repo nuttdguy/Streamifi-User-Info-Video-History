@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Streamifi/Streamifi-Activity-Bar
+  - https://github.com/Streamifi/Streamifi-User-Info-Video-History
+  - https://github.com/Streamifi/Streamifi-Chat
+  - https://github.com/Streamifi/Streamifi-Video-Player
 
 ## Table of Contents
 
