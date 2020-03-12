@@ -4,7 +4,7 @@ const Message = console.log('Hello World');
 
 class Broadcast extends React.Component {
     components(props){
-        super(props);
+       
 
     }
     render() {
