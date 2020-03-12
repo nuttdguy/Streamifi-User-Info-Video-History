@@ -4,7 +4,7 @@ module.exports = {
     verbose: true,
     clearMocks: true,
     collectCoverage: true,
-    moduleDirectory: ["/node_modules/"],
+    moduleDirectories: ["node_modules"],
     coverageDirectory: "coverage",
     moduleFileExtensions: ["js","json", "jsx"],
     setupFilesAfterEnv: ["jest-enzyme"],
