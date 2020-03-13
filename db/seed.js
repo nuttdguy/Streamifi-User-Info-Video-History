@@ -74,3 +74,5 @@ const seed = () => {
 
 
 stream.insertMany(seed());
+
+module.exports.stream = stream;
