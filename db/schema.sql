@@ -57,15 +57,12 @@ CREATE TABLE IF NOT EXISTS pastClips(
 );
 
 
-let randomUsername = faker.internet.userName();
-let randomPartnered = faker.random.boolean();
-let randomPro = faker.random.boolean();
-let randomLvl = Math.floor(Math.random() * 200);
-let randomViews = faker.random.number();
-let randomFacebook = faker.date.past();
-let randomInstagram = faker.date.past();
-let randomTwitter = faker.date.past();
-let randomYoutube = faker.date.past();
-let randomYoutube = faker.date.past();
-let randomYoutube = faker.date.past();
+-- clips = [{title: []},{views: []},{dateUploaded: []},{clips: []}] 
+-- clipTitle: Array,
+-- clipViews: Array,
+-- clipDateUploaded: Array
 
+-- broadcast = [{title: []},{views: []},{dateUploaded: []},{clips: []}]
+-- broadcastTitle: Array,
+-- broadcastViews: Array,
+-- broadcastDateUploaded: Array,
