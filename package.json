@@ -23,6 +23,8 @@
     "express": "^4.17.1",
     "jest-enzyme": "^7.1.2",
     "jquery": "^3.4.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.4",
     "nodemon": "^2.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
